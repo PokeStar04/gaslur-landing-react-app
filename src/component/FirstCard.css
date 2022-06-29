@@ -1,0 +1,87 @@
+.first-card{
+
+
+    border: 0.88px solid white;
+    padding: 28px;
+    border-radius: 36px;
+    background: linear-gradient(169.44deg, rgba(58, 129, 191, 0.08) 1.85%, rgba(65, 48, 90, 0.08) 98.72%);
+    backdrop-filter: blur(1110px);
+}
+
+.first-card::before{
+content: "";
+background: #FB37FF;
+filter: blur(200px);
+
+background: linear-gradient(169.44deg, rgba(58, 129, 191, 0.08) 1.85%, rgba(65, 48, 90, 0.08) 98.72%);
+backdrop-filter: blur(1110px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 35.0246px;
+}
+.imgFirstCard img{
+width: 100%;
+object-fit: contain;
+    
+
+
+}
+.hero{
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 30px;
+    margin-bottom: 100px;
+
+}
+.hero-text{
+
+    display: flex;
+    flex-direction: column;
+
+}
+.hero-text > h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 82px;
+    
+    
+    letter-spacing: -2px;
+    
+margin-bottom: 24px;
+}
+.hero-text > p
+{
+
+margin-bottom: 32px;
+
+} 
+.btn-primaire{
+    box-sizing: border-box;
+    padding: 12px 67px;
+    background: linear-gradient(103.91deg, #9B51E0 21.01%, rgba(48, 129, 237, 0.8) 100%);
+    border-radius: 16px;
+    font-style: normal;
+    font-weight: 600;
+    font-size:24px;
+    line-height: 36px;
+}
+.btn-secondaire{
+
+    box-sizing: border-box;
+    padding: 12px 67px;
+    border: 1px solid #D7D7D7;
+    border-radius: 16px;
+    font-style: normal;
+    font-weight: 600;
+    font-size:24px;
+    line-height: 36px;
+}
+.flex-direction-c{
+flex-direction: column;
+justify-content: space-between;
+}
+.gap-12{
+    column-gap: 12px;
+}

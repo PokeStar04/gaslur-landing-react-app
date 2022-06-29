@@ -1,0 +1,35 @@
+#nftCard div img{
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 24px;
+}
+#nftCard div :nth-child(2){
+  
+    margin-bottom: 16px;
+}
+#nftCard div hr{
+    background-color: #C4C4C4;
+    height: 0.5px;
+    margin-bottom: 24px;
+}
+
+#nftCard div :nth-child(4){
+   
+    margin-bottom: 80px;
+}
+#nftCard div div:last-child div:last-child{
+  
+    border: solid 1px #e2d2e2;
+    padding: 3px 20px;
+   
+
+}
+#nftCard div div:last-child div {
+    
+   
+    margin-bottom: 0px;
+    align-items: center;
+    border-radius: 8px;
+}
+
+
