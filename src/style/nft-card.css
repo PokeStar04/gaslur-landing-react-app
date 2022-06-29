@@ -32,4 +32,12 @@
     border-radius: 8px;
 }
 
+.tableau2{
 
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    column-gap: 115px;
+    
+  
+   
+}

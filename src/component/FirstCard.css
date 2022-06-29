@@ -22,6 +22,7 @@ border-radius: 35.0246px;
 .imgFirstCard img{
 width: 100%;
 object-fit: contain;
+margin-bottom: 30px;
     
 
 
@@ -57,16 +58,7 @@ margin-bottom: 24px;
 margin-bottom: 32px;
 
 } 
-.btn-primaire{
-    box-sizing: border-box;
-    padding: 12px 67px;
-    background: linear-gradient(103.91deg, #9B51E0 21.01%, rgba(48, 129, 237, 0.8) 100%);
-    border-radius: 16px;
-    font-style: normal;
-    font-weight: 600;
-    font-size:24px;
-    line-height: 36px;
-}
+
 .btn-secondaire{
 
     box-sizing: border-box;
@@ -84,4 +76,10 @@ justify-content: space-between;
 }
 .gap-12{
     column-gap: 12px;
+}
+.w10{
+    width: 200px;
+}
+.space-evenly{
+    justify-content: space-evenly;
 }

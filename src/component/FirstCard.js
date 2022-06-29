@@ -37,20 +37,20 @@ return(
                     <img src={laura}/>
                     <div className='flex flex-direction-c justify-content-left ' >
                         <div>
-                            <span className='semiBold fs-16 white'>   qLaura</span>
+                            <span className='semiBold fs-16 white'>   Laura</span>
                         </div>
                         <div>
-                                    < span className='gray fs-16 medieum'>0.2erztch</span>
+                                    < span className='gray fs-16 medieum'>0.21 Wetch</span>
                         </div>                       
 
                     </div>  
                 </div >
-                <div >
+                <div className='space-between flex flex-direction-c'>
                     <span className='white'>WE ARE HERE</span>
-                    <div className='flex justify-content-right' >
+                    <div className='flex justify-content-right align-center' >
                        
                         <img   src={coeur}/>
-                         <span className='gray'>25</span>
+                         <span className='gray m-l-8'>25</span>
                     </div>
                 </div>
                        
