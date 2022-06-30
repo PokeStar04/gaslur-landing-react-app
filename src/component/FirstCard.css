@@ -9,20 +9,50 @@
 }
 
 .first-card::before{
+
+    content: "";
+    display: block;
+    position: absolute;
+   width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    top: -45px;
+    left: -35px;
+    background: #FB37FF;
+    filter: blur(120px);
+    
+    
+}
+.first-card::after{
+
+    content: "";
+    display: block;
+    position: absolute;
+   width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    bottom: -45px;
+    right: -35px;
+    background: #18B2DE;
+    filter: blur(120px);
+    
+    
+}
+/* .first-card::before{
 content: "";
-background: #FB37FF;
-filter: blur(200px);
+
 
 background: linear-gradient(169.44deg, rgba(58, 129, 191, 0.08) 1.85%, rgba(65, 48, 90, 0.08) 98.72%);
-backdrop-filter: blur(1110px);
+backdrop-filter: blur(1110px);border-radius: 35.0246px;}
 /* Note: backdrop-filter has minimal browser support */
 
-border-radius: 35.0246px;
-}
+
+
 .imgFirstCard img{
 width: 100%;
-object-fit: contain;
-margin-bottom: 30px;
+object-fit: fill;
+margin-bottom: 32px;
+
     
 
 
@@ -55,7 +85,8 @@ margin-bottom: 24px;
 .hero-text > p
 {
 
-margin-bottom: 32px;
+
+    
 
 } 
 
@@ -72,7 +103,6 @@ margin-bottom: 32px;
 }
 .flex-direction-c{
 flex-direction: column;
-justify-content: space-between;
 }
 .gap-12{
     column-gap: 12px;
@@ -82,4 +112,36 @@ justify-content: space-between;
 }
 .space-evenly{
     justify-content: space-evenly;
+}
+@media only screen and (max-width: 767px) {
+
+    .first-card{
+
+
+        border: 0.88px solid white;
+        padding: 28px;
+        border-radius: 36px;
+        background: linear-gradient(169.44deg, rgba(58, 129, 191, 0.08) 1.85%, rgba(65, 48, 90, 0.08) 98.72%);
+        backdrop-filter: blur(1110px);
+    display: none;
+    
+    }
+
+.hero{
+
+display: block
+};
+
+.hero-text > h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 82px;
+    background-color: #FB37FF;
+    
+    letter-spacing: -2px;
+    
+margin-bottom: 24px;
+}
+
 }

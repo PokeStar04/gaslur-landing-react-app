@@ -5,3 +5,20 @@
     column-gap: 29px;
    
 }
+@media only screen and (max-width: 767px) {
+
+.tableau{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    column-gap: 29px;
+    position: inherit;
+   
+}
+
+
+
+
+
+}

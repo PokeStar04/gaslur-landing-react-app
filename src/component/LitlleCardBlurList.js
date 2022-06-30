@@ -8,7 +8,7 @@ const LittleCardBlurList= ({})=>{
 
 return (
 <div className="relative">
-   <div className="flex  blur-bg">
+   <div className="flex space-between blur-bg">
    
     {/* { nft.map(nft=>(
  

@@ -12,8 +12,9 @@ return(
     <section className='hero poppins'>
         <div className='hero-text'>
 
-        <h1 className='fs-72 semiBold white'>Discover, collect,  and charity in extraordinary NFT marketplace</h1>
-        <p className='fs-24 regular gray'>In aenean posuere lorem risus nec. Tempor tincidunt aenean purus purus vestibulum nibh mi venenatis</p>
+        <h1 className='semiBold white'>Discover, collect,  and charity in extraordinary NFT marketplace</h1>
+        
+        <p className='fs-24 regular m-b-40 gray'>In aenean posuere lorem risus nec. Tempor tincidunt aenean purus purus vestibulum nibh mi venenatis</p>
         <div className='flex gap-40'>
             <div>
                   <a href='google.com' className='white btn-primaire semiBold'>Explore</a>
@@ -28,7 +29,7 @@ return(
         </div>
 
         <div className=' relative first-card'>
-            <div  className=' relative imgFirstCard'>
+            <div  className=' relative p-b-32 imgFirstCard'>
                 <img   src={landing}/>
             </div>    
             <div className='flex space-between'>

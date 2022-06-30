@@ -35,9 +35,24 @@
 .tableau2{
 
     display: grid;
-    grid-template-columns: 2fr 4fr;
+    grid-template-columns: 1fr 1fr;
     column-gap: 115px;
     
   
    
 }
+
+
+@media only screen and (max-width: 767px) {
+
+    .tableau2{
+
+        display: grid;
+        
+        grid-template-columns: 1fr ;
+        column-gap: 115px;
+        row-gap: 50px;
+    }
+}
+
+

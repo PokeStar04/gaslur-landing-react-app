@@ -6,6 +6,7 @@ import "./style/App.css";
 import React from "react";
 import { BrowserRouter as Router, Link, Route , Routes} from 'react-router-dom';
 import Homepage from "./pages/homepage";
+import Header from "./component/Header";
 
 
 
@@ -16,8 +17,8 @@ function App() {
    
    <div className="wrapper ">
 
-    {/* Barre de navigation  */}
-    <header className="flex poppins space-between gray medieum fs-12 align-center">
+    {<Header/>/* Barre de navigation  */}
+    {/* <header className="flex poppins space-between gray medieum fs-12 align-center">
       
       
       <div className="gradient-1 fs-32 bold">
@@ -37,7 +38,7 @@ function App() {
         <div className="btn-create ">CREATE</div>
         <div>SIGN IN</div>
       </div>
-    </header>
+    </header> */}
 
    
     {<Homepage/>}

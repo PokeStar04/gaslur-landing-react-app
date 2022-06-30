@@ -1,31 +1,24 @@
 import NftList from "../models/nft-list";
 import { useState } from "react";
 import NftCard from "./nft-card";
-import "../style/nft-list.css"
+import "../style/nft-list.css";
 
-const NftCardList2= ({})=>{
-    const[nft,setNft]=useState(NftList)
+const NftCardList2 = ({ offset, nbCard }) => {
+    const [nft, setNft] = useState(NftList);
 
-return (
-<div>
-   <div className="tableau">
-   
-    {/* { nft.map(nft=>(
- 
-
-        <NftCard nft={nft}/>
+    return (
        
-        ))} */
-        
-    
-        nft.filter(nft=> nft.id > 4).map(nft=><NftCard nft={nft} /> )}
-   </div>
-  
+            <div className="tableau anim2">
+                {
+                    nft.map((el) => {
+                        if (el.id > offset && el.id <= offset + nbCard) {
+                            return <NftCard nft={el} />;
+                        }
+                    })
+                }
+            </div>
+       
+    );
+};
 
-</div>
-
-)
-
-}
-
-export default NftCardList2
+export default NftCardList2;
